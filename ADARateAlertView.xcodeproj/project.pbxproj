@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		290FF87722AA9A25004A04F1 /* ADARateAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 290FF87622AA9A25004A04F1 /* ADARateAlertView.swift */; };
 		8B086B3D22A164A700529342 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B086B3C22A164A700529342 /* AppDelegate.swift */; };
-		8B086B3F22A164A700529342 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B086B3E22A164A700529342 /* ViewController.swift */; };
-		8B086B4222A164A700529342 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B086B4022A164A700529342 /* Main.storyboard */; };
+		8B086B3F22A164A700529342 /* VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B086B3E22A164A700529342 /* VC.swift */; };
 		8B086B4422A164A800529342 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B086B4322A164A800529342 /* Assets.xcassets */; };
 		8B086B4722A164A800529342 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B086B4522A164A800529342 /* LaunchScreen.storyboard */; };
 		8B086B5222A164A800529342 /* ADARateAlertViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B086B5122A164A800529342 /* ADARateAlertViewTests.swift */; };
 		8B086B5D22A164A800529342 /* ADARateAlertViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B086B5C22A164A800529342 /* ADARateAlertViewUITests.swift */; };
-		8B086B6B22A164CB00529342 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B086B6A22A164CB00529342 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		290FF87622AA9A25004A04F1 /* ADARateAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADARateAlertView.swift; sourceTree = "<group>"; };
 		8B086B3922A164A700529342 /* ADARateAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADARateAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B086B3C22A164A700529342 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8B086B3E22A164A700529342 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8B086B4122A164A700529342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B086B3E22A164A700529342 /* VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC.swift; sourceTree = "<group>"; };
 		8B086B4322A164A800529342 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B086B4622A164A800529342 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8B086B4822A164A800529342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,7 +47,6 @@
 		8B086B5822A164A800529342 /* ADARateAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADARateAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B086B5C22A164A800529342 /* ADARateAlertViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ADARateAlertViewUITests.swift; sourceTree = "<group>"; };
 		8B086B5E22A164A800529342 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8B086B6A22A164CB00529342 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				8B086B3C22A164A700529342 /* AppDelegate.swift */,
-				8B086B3E22A164A700529342 /* ViewController.swift */,
-				8B086B6A22A164CB00529342 /* RatingControl.swift */,
-				8B086B4022A164A700529342 /* Main.storyboard */,
+				8B086B3E22A164A700529342 /* VC.swift */,
+				290FF87622AA9A25004A04F1 /* ADARateAlertView.swift */,
 				8B086B4322A164A800529342 /* Assets.xcassets */,
 				8B086B4522A164A800529342 /* LaunchScreen.storyboard */,
 				8B086B4822A164A800529342 /* Info.plist */,
@@ -234,7 +231,6 @@
 			files = (
 				8B086B4722A164A800529342 /* LaunchScreen.storyboard in Resources */,
 				8B086B4422A164A800529342 /* Assets.xcassets in Resources */,
-				8B086B4222A164A700529342 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +255,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8B086B3F22A164A700529342 /* ViewController.swift in Sources */,
-				8B086B6B22A164CB00529342 /* RatingControl.swift in Sources */,
+				8B086B3F22A164A700529342 /* VC.swift in Sources */,
+				290FF87722AA9A25004A04F1 /* ADARateAlertView.swift in Sources */,
 				8B086B3D22A164A700529342 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		8B086B4022A164A700529342 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8B086B4122A164A700529342 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		8B086B4522A164A800529342 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +434,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ada.ADARateAlertView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -464,7 +452,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Ada.ADARateAlertView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
